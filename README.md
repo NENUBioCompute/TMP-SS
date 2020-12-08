@@ -4,18 +4,18 @@ A Deep Learning-Based Predictor for Secondary Structure & Topology Structure Pre
 <p align="center"><img width="100%" src="images/pipeline.png" /></p>
 
 ## Download data
-We provide the test dataset used in this study,  you can download TEST.fasta to evaluate our method.
+We provide the test dataset used in this study, you can download TEST.fasta to evaluate our method.
 
 ## Quick Start
 
 ### Requirements
 - Python ≥ 3.6
 - Tensorflow and Keras
-- HH-suite for generating HHblits files (with the file suffix of .hhm)
+- [HH-suite](https://github.com/soedinglab/hh-suite) for generating HHblits files (with the file suffix of .hhm)
 
 ### Download TMP-SS
 ```
-git-lfs clone https://github.com/Liuzhe30/TMP-SS.git
+git-lfs clone https://github.com/NENUBioCompute/TMP-SS.git
 ```
 
 ### Test & Evaluate in Command Line
